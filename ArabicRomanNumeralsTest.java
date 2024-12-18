@@ -10,5 +10,5 @@ public class ArabicRomanNumeralsTest {
     void testConvert4() {
         assertEquals("IV", ArabicRomanNumerals.convert(4));
     }
-    
+
 }
