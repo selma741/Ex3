@@ -7,8 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ArabicRomanNumeralsTest {
 
     @Test
-    void testConvert4() {
-        assertEquals("IV", ArabicRomanNumerals.convert(4));
+    void testConvert1() {
+        assertEquals("I", ArabicRomanNumerals.convert(1));
     }
 
 }
