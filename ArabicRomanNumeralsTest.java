@@ -2,11 +2,13 @@ package com.pantxi.romain;
 
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ArabicRomanNumeralsTest {
 
     @Test
-    public void testConvert1() {
-        assertThat(ArabicRomanNumerals.convert(1)).isEqualTo("I");
+    void testConvert4() {
+        assertEquals("IV", ArabicRomanNumerals.convert(4));
     }
+    
 }
